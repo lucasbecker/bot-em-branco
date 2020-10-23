@@ -1,0 +1,23 @@
+{
+  "name": "bot-em-branco",
+  "version": "1.0.0",
+  "description": "Chatbot para o Telegram de vídeos do Quadro em Branco.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chatbot",
+    "telegram",
+    "youtube",
+    "videos"
+  ],
+  "author": "Lucas Becker Felisberto",
+  "license": "MIT",
+  "dependencies": {
+    "dialogflow": "^1.2.0",
+    "node-telegram-bot-api": "^0.50.0",
+    "youtube-node": "^1.3.3"
+  }
+}
